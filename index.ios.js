@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import {
-  AppRegistry
-} from 'react-native';
-import App from './src/App.js';
+import {AppRegistry} from 'react-native';
+import {Drawer} from './src/components/router.js'
 
 export default class PickColor extends Component {
   render() {
-    return (<App/>);
+    return <Drawer/>;
   }
 }
 
